@@ -1932,6 +1932,23 @@ weather=Indiatodayweather("Mumbai")
                                    and humidity of the place.                                      |
 ---
 
+### Booking.com
+
+```py
+from scrape_up import Booking.com
+```
+
+Create an instance of `BookingScraper` class
+
+```python
+scraper = BookingScraper("London")
+```
+
+| Method                   | Details                                                   |
+| ------------------------ | --------------------------------------------------------- |
+| `get_hotels()`           | Returns a list of hotels with their details.              |
+---
+
 ## Bayt
 
 ```python
