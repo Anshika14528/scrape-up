@@ -53,9 +53,4 @@ class BookingScraper:
 
         return hotels
 
-# Example usage
-if __name__ == "__main__":
-    scraper = BookingScraper("Delhi")
-    hotels = scraper.get_hotels()
-    for hotel in hotels:
-        print(hotel)
+
